@@ -3,9 +3,9 @@ package com.group_finity.mascot.x11;
 import java.awt.Rectangle;
 import java.awt.Point;
 import java.util.Vector;
-import jnacontrib.x11.api.X.Display;
-import jnacontrib.x11.api.X.X11Exception;
-import jnacontrib.x11.api.X.Window;
+import com.group_finity.mascot.x11.X.Display;
+import com.group_finity.mascot.x11.X.X11Exception;
+import com.group_finity.mascot.x11.X.Window;
 import com.group_finity.mascot.environment.Area;
 import com.group_finity.mascot.environment.WindowContainer;
 import com.group_finity.mascot.environment.Environment;
@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.Iterator;
 import java.util.Random;
+import com.group_finity.mascot.x11.X.Display;
+
 
 class X11Environment extends Environment {
 	
